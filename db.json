@@ -1,17 +1,5 @@
 {
-  "projects": [
-    {
-      "id": "28cb",
-      "name": "Projeto 1",
-      "budget": "1000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": []
-    }
-  ],
+  "projects": [],
   "categories": [
     {
       "id": "1",

@@ -10,10 +10,10 @@ function Navbar(){
             <Container>
                 <Link to ='/'> <img src={logo} alt="Costs"/> </Link>
                 <ul className={styles.list}>
-                    <li className={styles.item}><Link to ='/'>Página inicial</Link></li>
-                    <li className={styles.item}><Link to ='/projects'>Meus projetos</Link></li>
-                    <li className={styles.item}><Link to ='/company'>Empresa</Link></li>
-                    <li className={styles.item}><Link to ='/contact'>Contato</Link></li>
+                    <li className={styles.item}><Link className={styles.styled_link} to ='/'>Página inicial</Link></li>
+                    <li className={styles.item}><Link className={styles.styled_link}  to ='/projects'>Meus projetos</Link></li>
+                    <li className={styles.item}><Link className={styles.styled_link}  to ='/company'>Empresa</Link></li>
+                    <li className={styles.item}><Link className={styles.styled_link}  to ='/contact'>Contato</Link></li>
                 </ul>
             </Container>
         </nav>

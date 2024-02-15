@@ -25,3 +25,9 @@
     color: #FFBB33;
     text-decoration: none;
 }
+
+.styled_link{
+    text-decoration: none;
+    color: black;
+    margin: 0.3rem;
+  }
